@@ -26,19 +26,48 @@ La programmation fonctionnelle.
 
 
 Concepts
+
 Encapsulation : 
-Abstraction
-Héritage
-Polymorphisme
-Classe vs. Instance
+Consiste à cacher le fonctionnement interne de l'objet en imposant à l'utilisateur de l'objet de passer par les méthodes. Ceci permet de sécuriser les données car on limite l'accès et la modification aux variables à l'intérieur des classes. mots clés : private (pour avoir accès au private on utilise des "getter" et des "setter" pour y avoir accès) vs public. 
+
+Abstraction : 
+Mécanisme qui représente les caractéristiques essentielles sans inclure les détails de la mise en oeuvre. 
+
+Héritage: 
+Création d'une classe qui hérite de toutes les propriétés de celle dont elle est étendue, plus des nouvelles. Ce mécanisme permet d'éliminer le code redondant. 
+
+Polymorphisme:
+Le fait qu'une fonction de meme nom ne donne pas les mêmes comportements puis qu'elle est défini dans plusieurs classes. Méthode de base abstraite défini concrètement dans chacune des classes filles, ainsi à l'execution on déduit le comportement le plus adapté. 
+
+Classe vs. Instance: 
+Class = propriétés équivalent aux variables + Méthodes équivalent à des fonctions 
+Instance: objet qui sont des instances de classes
 
 Éléments de programmation
-Classe
+
+Classe: 
 La classe est le schéma ou le plan qui permet de générer un objet.
-this / self
-Constructeur
-Méthode
-Attribut / propriété / membre
-Interface
+
+this / self:
+    this: refert à l'objet. 
+    self: refert à la classe dans son ensemble et non à une instance spécifique. 
+
+Constructeur:
+fonction déclaré dans la classe qui indique la construction des instances de cette classe. Les fonctions de type constructeur commencent généralement par une majuscule.
+
+Méthode: 
+nom donné à une fonction dans la POO. 
+
+Attribut: 
+correspond au caractères propres à un objet. 
+
+Propriété:
+nom donné aux variables dans la classe.
+
+Membre: 
+L'ensemble des propriétés et méthodes d'un objet. 
+
+Interface: 
+Sorte de classe qui contient un ensemble de méthode publique sans logique. Une classe implémente une interface, elle doit contenir toutes les méthodes de cette interface. On peut implémenter plusieurs interfaces pour une classe. 
 
 
